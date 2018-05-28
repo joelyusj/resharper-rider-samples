@@ -20,7 +20,7 @@
         // 2. Apply context action
         //    Place text caret on "arg"
         //    Note the hammer action - a context action is available (no squiggly!)
-        //    Hit Alt+Enter, select "To String.Format invocation"
+        //    Hit Alt+Enter, select "Convert concatenation to interpolation"
         public string ConcatenatingString(string arg)
         {
             return "Hello" + arg + "World";
