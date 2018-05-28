@@ -49,14 +49,10 @@ namespace JetBrains.ReSharper.Koans.Inspections
 
         public void DeadCode()
         {
-            // 5. Highlights code that is redundant or unreachable
-            //    Shows as greyed out
-            //    Hover mouse over to see tooltip: "Method invocation is skipped..."
             ConditionalMethod();
 
             return;
 
-            // "Code is unreachable"
             Console.WriteLine("Hello");
         }
 
