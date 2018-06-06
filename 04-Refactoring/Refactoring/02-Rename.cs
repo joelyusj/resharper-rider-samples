@@ -81,7 +81,7 @@ namespace JetBrains.ReSharper.Koans.Refactoring
         {
             // 4a. Place text caret on type name or method name
             //     Invoke rename refactoring
-            //     On first page, check "To enable undo, open all files with changes after editing"
+            //     On first page, check "To enable undo, open all files with changes for editing"
             //     Rename symbol
             //     The other file is opened, and marked modified
             //     Ctrl+Z will undo the change across all files
@@ -93,7 +93,7 @@ namespace JetBrains.ReSharper.Koans.Refactoring
             // 4b. Place text caret on type name or method name
             //     Make sure RenameInAnotherFile.cs is closed
             //     Invoke rename refactoring
-            //     On first page, UNCHECK "To enable undo, open all files with changes after editing"
+            //     On first page, UNCHECK "To enable undo, open all files with changes for editing"
             //     Rename symbol
             //     The other file is not opened, but modified
             //     Ctrl+Z will undo the local change, but produce uncompilable code
@@ -177,9 +177,9 @@ namespace JetBrains.ReSharper.Koans.Refactoring
         }
 
         // 8a. Cancel apply rename refactor prompt with Escape
-        //     Place text caret on AutoProperty
+        //     Place text caret on Name
         //     MANUALLY change the property name (do not invoke refactoring)
-        //     Note the dotted line around the propert name
+        //     Note the dotted line around the property name
         //     Hit Escape to cancel the dotted line
         public string Name { get; set; }
     }
