@@ -53,7 +53,7 @@ namespace JetBrains.ReSharper.Koans.Refactoring
         }
 
         // 3. Inline parameter
-        //    Select parameter "a" (Use expand selection Ctrl+Alt+Right (VS) Ctrl+W (IntelliJ))
+        //    Select parameter "a"
         //    Invoke Inline Parameter
         //    Select the value to be substituted for the parameter. Value comes from usage
         //    Parameter is removed, all usages in the method are replaced with the passed value, call site is update
@@ -68,7 +68,7 @@ namespace JetBrains.ReSharper.Koans.Refactoring
         }
 
         // 4. Inline parameter with multiple usages
-        //    Select parameter "a" (Use expand selection Ctrl+Alt+Right (VS) Ctrl+W (IntelliJ))
+        //    Select parameter "a"
         //    Invoke Inline Parameter
         //    Select the value to be substituted for the parameter. Value comes from usage
         //    Parameter is removed, all usages in the method are replaced with the chosen value, call site is update

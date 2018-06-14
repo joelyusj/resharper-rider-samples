@@ -70,8 +70,8 @@ namespace JetBrains.ReSharper.Koans.Refactoring
     }
 
     // 3. Convert interface to abstract class
-    //    Place text caret on class definition
-    //    Invoke Refactor This → Convert Abstract Class to Interface
+    //    Place text caret on interface definition
+    //    Invoke Refactor This → Convert Interface to Abstract Class
     //    ReSharper creates abstract class with no implementations
     //      and makes implementing methods "override" in derived class
     public interface IPerson

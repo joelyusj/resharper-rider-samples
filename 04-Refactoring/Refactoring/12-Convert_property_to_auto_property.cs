@@ -32,7 +32,7 @@
             set { backingStore2 = value; }
         }
 
-        // 2. Convert to read-only Auto Property with Alt+Enter
+        // 3. Convert to read-only Auto Property with Alt+Enter
         //    Note shown as hint
         //    Place text caret on property definition
         //    Alt+Enter and select Convert to auto-property

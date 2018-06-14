@@ -20,7 +20,7 @@
         {
         }
 
-        // 1. Convert extension method to plain static
+        // 2. Convert extension method to plain static
         //    Place text caret on method name
         //    Invoke Refactor This → Convert Static Method to Extension
         //    Call site is updated
